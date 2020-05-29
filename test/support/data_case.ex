@@ -24,6 +24,7 @@ defmodule ObanTutorial.DataCase do
       import Ecto.Changeset
       import Ecto.Query
       import ObanTutorial.DataCase
+      use Oban.Testing, repo: ObanTutorial.Repo
     end
   end
 

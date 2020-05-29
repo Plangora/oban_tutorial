@@ -1,5 +1,5 @@
 # Oban Tutorial
-## Oban Setup
+## Simple Oban Job
 
 To start your Phoenix server:
 
@@ -11,7 +11,7 @@ To start your Phoenix server:
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 ## Reference Video
-[https://youtu.be/1Lipiywmuxs](https://youtu.be/1Lipiywmuxs)
+[https://youtu.be/SvWitzkbjdo](https://youtu.be/SvWitzkbjdo)
 
 
 ## Learn more

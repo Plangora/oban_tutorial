@@ -20,3 +20,9 @@ config :oban_tutorial, ObanTutorialWeb.Endpoint,
 
 # Print only warnings and errors during test
 config :logger, level: :warn
+
+# Do not use high amount of log_rounds for testing
+config :bcrypt_elixir, :log_rounds, 1
+
+# Turn off Oban running during testing
+config :oban_tutorial, Oban, crontab: false, queues: false, prune: :disabled
